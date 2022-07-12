@@ -1,1 +1,12 @@
-1 
+ກ່ອນຈະແກ້ໄຂຟາຍຕ້ອງສ້າງ branch ກ່ອນ 
+ວິທີການສ້າງ branch 
+1 git checkout -b (ຊື່ branch)
+
+
+ກ່ອນຈະອັບຟາຍຂື້ນແກ້ 
+1 git add . (. ຄືເອົາຂື້ນທຸກຟາຍ)
+2 git commit -m "ອະທິິບາຍສິ່ງທີ່ຈະແກ້ໄຂ"
+3 git checkout master 
+4 git pull 
+5 git merge ຊື່ branch --no-ff (ຄວາມໝາຍ ເອົາສະເພາະຟາຍທີ່ມີການປ່ຽນແປງ)
+6 git push
